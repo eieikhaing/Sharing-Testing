@@ -1,0 +1,15 @@
+
+.first {
+	/*background: yellow;*/
+	padding: 10px;
+	/*margin: 0 auto;*/
+	margin: auto;
+}
+.links {
+	margin: 0 auto;
+}
+.signup {
+	padding: 12px;
+	margin-top: 40px;
+	background: url('../img/Investment-Research.jpg') fixed;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<script type="text/javascript">
+		var cache = '';
+		var data = [ {name: 'Homer'}, {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'}];
+
+		for (i = 0 ; i < data.length; i++) {
+		var people = data[i];
+
+		    cache += people.name + 
+		    (i < (data.length - 2) ? ', ' : 
+		        (i === (data.length - 2) ? ' & ' : ''));
+		    console.log(cache);
+		}
+	</script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
